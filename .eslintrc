@@ -1,0 +1,64 @@
+{
+  "env": {
+    "browser": true
+  },
+  "extends": "google",
+  "globals": {
+    "Npm": false,
+    "Package": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "array-callback-return": 2,
+    "arrow-body-style": 2,
+    "arrow-parens": 2,
+    "arrow-spacing": 2,
+    "brace-style": 2,
+    "camelcase": [
+      2,
+      {
+        "properties": "never"
+      }
+    ],
+    "no-array-constructor": 2,
+    "no-case-declarations": 2,
+    "no-confusing-arrow": 2,
+    "no-console": 2,
+    "no-dupe-class-members": 2,
+    "no-duplicate-imports": 2,
+    "no-iterator": 2,
+    "no-loop-func": 2,
+    "no-nested-ternary": 2,
+    "no-new-object": 2,
+    "no-param-reassign": 2,
+    "no-unneeded-ternary": 2,
+    "no-unused-vars": [
+      2,
+      {
+        "args": "after-used",
+        "vars": "local"
+      }
+    ],
+    "no-useless-constructor": 2,
+    "no-useless-escape": 2,
+    "no-var": 2,
+    "object-shorthand": 2,
+    "prefer-arrow-callback": 2,
+    "prefer-const": 2,
+    "prefer-rest-params": 2,
+    "prefer-template": 2,
+    "quote-props": [
+      2,
+      "as-needed"
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "require-jsdoc": 0,
+    "template-curly-spacing": 2
+  }
+}

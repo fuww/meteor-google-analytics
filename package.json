@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-google": "^0.4.0"
+  },
+  "eslintConfig": {
+    "extends": "google"
+  }
+}
